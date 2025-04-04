@@ -45,7 +45,7 @@ public class DynamicController : MonoBehaviour
         }
         if (!anyKeyPressed)
         {
-            rb.linearVelocity += Vector2.zero;
+            rb.linearVelocity += Vector2.zero + Vector2.zero;
             rb.angularVelocity += 0;
         }
 
