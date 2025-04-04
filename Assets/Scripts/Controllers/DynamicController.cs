@@ -45,8 +45,8 @@ public class DynamicController : MonoBehaviour
         }
         if (!anyKeyPressed)
         {
-            rb.linearVelocity += Vector2.zero + Vector2.zero;
-            rb.angularVelocity += 0;
+            rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, Vector2.zero, 0.01f);
+            rb.angularVelocity = Mathf.Lerp(rb.angularVelocity, 0f, 0.01f);
         }
 
     }

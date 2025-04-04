@@ -928,7 +928,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 0.01
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1063,8 +1063,8 @@ MonoBehaviour:
   moveRightKey: 275
   moveLeftKey: 276
   moveDownKey: 274
-  MoveForce: 1.25
-  MoveUpForce: 3
+  MoveForce: 1
+  MoveUpForce: 2
   MoveDownForce: 1
   rb: {fileID: 2025045195}
 --- !u!1001 &2063593134
