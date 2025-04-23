@@ -11,8 +11,9 @@ public class DynamicController : MonoBehaviour
     public float MoveForce = 0.5f;
     public float MoveUpForce = 0.2f;
     public float MoveDownForce = 0.2f;
+    public float brakeForce = 0.01f;
 
-    public Rigidbody2D rb;
+    protected Rigidbody2D rb;
 
     void Start()
     {
@@ -45,8 +46,8 @@ public class DynamicController : MonoBehaviour
         }
         if (!anyKeyPressed)
         {
-            rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, Vector2.zero, 0.01f);
-            rb.angularVelocity = Mathf.Lerp(rb.angularVelocity, 0f, 0.01f);
+            rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, Vector2.zero, brakeForce);
+            rb.angularVelocity = Mathf.Lerp(rb.angularVelocity, 0f, brakeForce);
         }
 
     }

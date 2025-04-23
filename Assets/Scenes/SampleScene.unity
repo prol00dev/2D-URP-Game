@@ -1063,10 +1063,10 @@ MonoBehaviour:
   moveRightKey: 275
   moveLeftKey: 276
   moveDownKey: 274
-  MoveForce: 1
-  MoveUpForce: 2
-  MoveDownForce: 1
-  rb: {fileID: 2025045195}
+  MoveForce: 3
+  MoveUpForce: 60
+  MoveDownForce: 3
+  brakeForce: 0.02
 --- !u!1001 &2063593134
 PrefabInstance:
   m_ObjectHideFlags: 0
