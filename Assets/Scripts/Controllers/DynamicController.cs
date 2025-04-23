@@ -44,7 +44,7 @@ public class DynamicController : MonoBehaviour
             rb.AddForce(Vector2.left * MoveForce);
             anyKeyPressed = true;
         }
-        if (!anyKeyPressed)
+        if (!anyKeyPressed) // && onColliderTouch
         {
             rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, Vector2.zero, brakeForce);
             rb.angularVelocity = Mathf.Lerp(rb.angularVelocity, 0f, brakeForce);
