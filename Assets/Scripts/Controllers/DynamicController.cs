@@ -16,7 +16,7 @@ public class DynamicController : MonoBehaviour
 
     protected Rigidbody2D rb;
 
-    private bool isFlying = true;
+    public bool isFlying = true;
 
     void Start()
     {
@@ -54,7 +54,7 @@ public class DynamicController : MonoBehaviour
             Debug.Log("brake = true");
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
         // Проверяем, касается ли объект земли
         if (collision.gameObject.tag == "Ground")
@@ -63,7 +63,7 @@ public class DynamicController : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
+    public void OnCollisionExit2D(Collision2D collision)
     {
         // Если объект перестал касаться земли
         if (collision.gameObject.tag == "Ground")
