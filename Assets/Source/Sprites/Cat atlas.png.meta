@@ -177,7 +177,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 700
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1210,7 +1210,50 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cat atlas_0: 6550611893061621960
+      Cat atlas_1: 8450990298597102119
+      Cat atlas_10: -6213378304104109684
+      Cat atlas_11: -8480770734849673712
+      Cat atlas_12: -427190852584814077
+      Cat atlas_13: -1660430227076409555
+      Cat atlas_14: 1906644283914494539
+      Cat atlas_15: -1641452586637119121
+      Cat atlas_16: -4099875765204767046
+      Cat atlas_17: 343038480588421003
+      Cat atlas_18: 5482715900998426406
+      Cat atlas_19: 7533388707492659399
+      Cat atlas_2: 8889173395804289853
+      Cat atlas_20: -696105036306565342
+      Cat atlas_21: 6691782265478181127
+      Cat atlas_22: 5428180600701908707
+      Cat atlas_23: -1244920778814552149
+      Cat atlas_24: 1236392687311136520
+      Cat atlas_25: 6055542015688233873
+      Cat atlas_26: -6584409937119726851
+      Cat atlas_27: 8843142380946198081
+      Cat atlas_28: 7162155670594087026
+      Cat atlas_29: -2173294162945037460
+      Cat atlas_3: -4807422092483096555
+      Cat atlas_30: 673752805424155519
+      Cat atlas_31: -215275164878757881
+      Cat atlas_32: -1140964809988898644
+      Cat atlas_33: 3294359335609839403
+      Cat atlas_34: 5424144511325825653
+      Cat atlas_35: -256359658495475508
+      Cat atlas_36: -6804404806722675561
+      Cat atlas_37: -1167371431897743414
+      Cat atlas_38: 2562945048592784418
+      Cat atlas_39: -2311032156488224624
+      Cat atlas_4: -7326645380291023168
+      Cat atlas_40: -7989130103690603248
+      Cat atlas_41: -8324304568542078432
+      Cat atlas_42: 7056454192936537460
+      Cat atlas_5: -6681496163976034752
+      Cat atlas_6: -7497384231972194194
+      Cat atlas_7: -2358897495027367413
+      Cat atlas_8: 2081513511913321008
+      Cat atlas_9: -6908957922196550648
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,4 +1,4 @@
-using UnityEngine;
+п»їusing UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class DynamicController : MonoBehaviour
@@ -7,66 +7,53 @@ public class DynamicController : MonoBehaviour
     public KeyCode moveRightKey = KeyCode.RightArrow;
     public KeyCode moveLeftKey = KeyCode.LeftArrow;
     public KeyCode moveDownKey = KeyCode.DownArrow;
-    public KeyCode jumpKey = KeyCode.Space;
 
-    public float MoveForce = 0.5f;
-    public float MoveUpForce = 0.2f;
-    public float MoveDownForce = 0.2f;
-    public float brakeForce = 0.01f;
+    public float moveSpeed = 5f;
 
     protected Rigidbody2D rb;
-
     public bool isFlying = true;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        rb.freezeRotation = true; // в›” Р—Р°РїСЂРµС‚РёС‚СЊ РІСЂР°С‰РµРЅРёРµ
     }
 
     void Update()
     {
-        bool anyKeyPressed = false;
+        Vector2 moveDir = Vector2.zero;
 
         if (Input.GetKey(moveUpKey))
-        {
-            rb.AddForce(Vector2.up * MoveUpForce);
-            anyKeyPressed = true;
-        }
+            moveDir += Vector2.up;
+
         if (Input.GetKey(moveDownKey))
-        {
-            rb.AddForce(Vector2.down * MoveDownForce);
-            anyKeyPressed = true;
-        }    
+            moveDir += Vector2.down;
+
         if (Input.GetKey(moveRightKey))
-        {
-            rb.AddForce(Vector2.right * MoveForce);
-            anyKeyPressed = true;
-        }
+            moveDir += Vector2.right;
+
         if (Input.GetKey(moveLeftKey))
+            moveDir += Vector2.left;
+
+        rb.velocity = moveDir.normalized * moveSpeed;
+
+        if (moveDir == Vector2.zero && !isFlying)
         {
-            rb.AddForce(Vector2.left * MoveForce);
-            anyKeyPressed = true;
-        }
-        if (!anyKeyPressed && !isFlying)
-        {
-            rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, Vector2.zero, brakeForce);
-            rb.angularVelocity = Mathf.Lerp(rb.angularVelocity, 0f, brakeForce);
-            Debug.Log("brake = true");
+            rb.velocity = Vector2.Lerp(rb.velocity, Vector2.zero, 0.1f);
         }
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        // Проверяем, касается ли объект земли
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.CompareTag("Ground"))
         {
             isFlying = false;
         }
     }
 
-    public void OnCollisionExit2D(Collision2D collision)
+    void OnCollisionExit2D(Collision2D collision)
     {
-        // Если объект перестал касаться земли
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.CompareTag("Ground"))
         {
             isFlying = true;
             Debug.Log("i'm fall down");
