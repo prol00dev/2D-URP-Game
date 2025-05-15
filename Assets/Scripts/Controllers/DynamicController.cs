@@ -35,11 +35,11 @@ public class DynamicController : MonoBehaviour
         if (Input.GetKey(moveLeftKey))
             moveDir += Vector2.left;
 
-        rb.velocity = moveDir.normalized * moveSpeed;
+        rb.linearVelocity = moveDir.normalized * moveSpeed;
 
         if (moveDir == Vector2.zero && !isFlying)
         {
-            rb.velocity = Vector2.Lerp(rb.velocity, Vector2.zero, 0.1f);
+            rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, Vector2.zero, 0.1f);
         }
     }
 
