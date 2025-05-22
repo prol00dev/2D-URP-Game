@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
+
+        SpriteRenderer.sprite = Resources.Load<Sprite>("Resources_24");
     }
 
     private void Update()
