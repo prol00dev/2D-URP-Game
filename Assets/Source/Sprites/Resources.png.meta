@@ -1213,7 +1213,7 @@ TextureImporter:
         width: 584
         height: 136
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1235,7 +1235,7 @@ TextureImporter:
         width: 488
         height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1302,6 +1302,9 @@ TextureImporter:
       Resources_42: 21300084
       Resources_43: -1304818841
       Resources_44: 258711738
+      Resources_45: 1245420814
+      Resources_46: 1387311805
+      Resources_47: 94017555
       Resources_5: 21300010
       Resources_6: 21300012
       Resources_7: 21300014

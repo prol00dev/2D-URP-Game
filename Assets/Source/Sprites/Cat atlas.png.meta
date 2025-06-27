@@ -252,7 +252,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cat atlas_0
+      name: Walk_0
       rect:
         serializedVersion: 2
         x: 0
@@ -274,7 +274,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_4
+      name: Walk_4
       rect:
         serializedVersion: 2
         x: 0
@@ -296,7 +296,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_8
+      name: Walk_8
       rect:
         serializedVersion: 2
         x: 0
@@ -318,7 +318,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_1
+      name: Walk_1
       rect:
         serializedVersion: 2
         x: 0
@@ -340,7 +340,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_2
+      name: Walk_2
       rect:
         serializedVersion: 2
         x: 0
@@ -362,7 +362,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_3
+      name: Walk_3
       rect:
         serializedVersion: 2
         x: 0
@@ -384,7 +384,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_5
+      name: Walk_5
       rect:
         serializedVersion: 2
         x: 0
@@ -406,7 +406,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_6
+      name: Walk_6
       rect:
         serializedVersion: 2
         x: 0
@@ -428,7 +428,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_7
+      name: Walk_7
       rect:
         serializedVersion: 2
         x: 0
@@ -450,7 +450,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_9
+      name: Walk_9
       rect:
         serializedVersion: 2
         x: 0
@@ -472,7 +472,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_10
+      name: Walk_10
       rect:
         serializedVersion: 2
         x: 0
@@ -494,7 +494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_11
+      name: Walk_11
       rect:
         serializedVersion: 2
         x: 0
@@ -516,7 +516,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_12
+      name: Idle_0
       rect:
         serializedVersion: 2
         x: 400
@@ -538,7 +538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_13
+      name: Idle_1
       rect:
         serializedVersion: 2
         x: 400
@@ -560,7 +560,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_15
+      name: Idle_3
       rect:
         serializedVersion: 2
         x: 400
@@ -582,7 +582,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_14
+      name: Idle_2
       rect:
         serializedVersion: 2
         x: 400
@@ -604,7 +604,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_17
+      name: Idle_5
       rect:
         serializedVersion: 2
         x: 400
@@ -648,7 +648,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_16
+      name: Idle_4
       rect:
         serializedVersion: 2
         x: 400
@@ -758,7 +758,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_23
+      name: Run_0
       rect:
         serializedVersion: 2
         x: 800
@@ -780,7 +780,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_24
+      name: Run_01
       rect:
         serializedVersion: 2
         x: 800
@@ -802,7 +802,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_25
+      name: Run_02
       rect:
         serializedVersion: 2
         x: 800
@@ -824,7 +824,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_26
+      name: Run_03
       rect:
         serializedVersion: 2
         x: 800
@@ -846,7 +846,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_27
+      name: Run_04
       rect:
         serializedVersion: 2
         x: 800
@@ -868,7 +868,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_28
+      name: Run_05
       rect:
         serializedVersion: 2
         x: 800
@@ -890,7 +890,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_29
+      name: Jump_07
       rect:
         serializedVersion: 2
         x: 800
@@ -1022,7 +1022,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_35
+      name: JumpToGround_0
       rect:
         serializedVersion: 2
         x: 1200
@@ -1044,10 +1044,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_36
+      name: Jump_01
       rect:
         serializedVersion: 2
-        x: 1200
+        x: 1197
         y: 1191
         width: 400
         height: 200
@@ -1066,7 +1066,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_37
+      name: Jump_02
       rect:
         serializedVersion: 2
         x: 1200
@@ -1088,7 +1088,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_38
+      name: Jump_03
       rect:
         serializedVersion: 2
         x: 1200
@@ -1110,7 +1110,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_39
+      name: Jump_04
       rect:
         serializedVersion: 2
         x: 1200
@@ -1132,7 +1132,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_40
+      name: Jump_05
       rect:
         serializedVersion: 2
         x: 1200
@@ -1154,7 +1154,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_41
+      name: Jump_06
       rect:
         serializedVersion: 2
         x: 1200
@@ -1176,11 +1176,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_42
+      name: Jump_07_
       rect:
         serializedVersion: 2
         x: 1200
-        y: 0
+        y: 3
         width: 400
         height: 200
       alignment: 0
@@ -1211,49 +1211,49 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cat atlas_0: 6550611893061621960
-      Cat atlas_1: 8450990298597102119
-      Cat atlas_10: -6213378304104109684
-      Cat atlas_11: -8480770734849673712
-      Cat atlas_12: -427190852584814077
-      Cat atlas_13: -1660430227076409555
-      Cat atlas_14: 1906644283914494539
-      Cat atlas_15: -4099875765204767046
-      Cat atlas_16: -1641452586637119121
-      Cat atlas_17: 343038480588421003
       Cat atlas_18: 5482715900998426406
       Cat atlas_19: 7533388707492659399
-      Cat atlas_2: 8889173395804289853
       Cat atlas_20: 6691782265478181127
       Cat atlas_21: -696105036306565342
       Cat atlas_22: 5428180600701908707
-      Cat atlas_23: -1244920778814552149
-      Cat atlas_24: 1236392687311136520
-      Cat atlas_25: 6055542015688233873
-      Cat atlas_26: -6584409937119726851
-      Cat atlas_27: 8843142380946198081
-      Cat atlas_28: 7162155670594087026
-      Cat atlas_29: -2173294162945037460
-      Cat atlas_3: -4807422092483096555
       Cat atlas_30: 673752805424155519
       Cat atlas_31: -215275164878757881
       Cat atlas_32: -1140964809988898644
       Cat atlas_33: 3294359335609839403
       Cat atlas_34: 5424144511325825653
-      Cat atlas_35: -256359658495475508
-      Cat atlas_36: -6804404806722675561
-      Cat atlas_37: -1167371431897743414
-      Cat atlas_38: 2562945048592784418
-      Cat atlas_39: -2311032156488224624
-      Cat atlas_4: -7326645380291023168
-      Cat atlas_40: -7989130103690603248
-      Cat atlas_41: -8324304568542078432
-      Cat atlas_42: 7056454192936537460
-      Cat atlas_5: -6681496163976034752
-      Cat atlas_6: -7497384231972194194
-      Cat atlas_7: -2358897495027367413
-      Cat atlas_8: 2081513511913321008
-      Cat atlas_9: -6908957922196550648
+      Idle_0: -427190852584814077
+      Idle_1: -1660430227076409555
+      Idle_2: 1906644283914494539
+      Idle_3: -1641452586637119121
+      Idle_4: -4099875765204767046
+      Idle_5: 343038480588421003
+      JumpToGround_0: -256359658495475508
+      Jump_01: -6804404806722675561
+      Jump_02: -1167371431897743414
+      Jump_03: 2562945048592784418
+      Jump_04: -2311032156488224624
+      Jump_05: -7989130103690603248
+      Jump_06: -8324304568542078432
+      Jump_07: -2173294162945037460
+      Jump_07_: 7056454192936537460
+      Run_0: -1244920778814552149
+      Run_01: 1236392687311136520
+      Run_02: 6055542015688233873
+      Run_03: -6584409937119726851
+      Run_04: 8843142380946198081
+      Run_05: 7162155670594087026
+      Walk_0: 6550611893061621960
+      Walk_1: 8450990298597102119
+      Walk_10: -6213378304104109684
+      Walk_11: -8480770734849673712
+      Walk_2: 8889173395804289853
+      Walk_3: -4807422092483096555
+      Walk_4: -7326645380291023168
+      Walk_5: -6681496163976034752
+      Walk_6: -7497384231972194194
+      Walk_7: -2358897495027367413
+      Walk_8: 2081513511913321008
+      Walk_9: -6908957922196550648
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
