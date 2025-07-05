@@ -912,7 +912,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_30
+      name: idle G_00
       rect:
         serializedVersion: 2
         x: 1200
@@ -934,7 +934,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_31
+      name: idle G_01
       rect:
         serializedVersion: 2
         x: 1200
@@ -956,7 +956,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_32
+      name: idle G_02
       rect:
         serializedVersion: 2
         x: 1200
@@ -978,7 +978,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_33
+      name: idle G_03
       rect:
         serializedVersion: 2
         x: 1200
@@ -1000,7 +1000,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat atlas_34
+      name: idle G_04
       rect:
         serializedVersion: 2
         x: 1200
@@ -1047,7 +1047,7 @@ TextureImporter:
       name: Jump_01
       rect:
         serializedVersion: 2
-        x: 1197
+        x: 1194
         y: 1191
         width: 400
         height: 200
@@ -1135,7 +1135,7 @@ TextureImporter:
       name: Jump_05
       rect:
         serializedVersion: 2
-        x: 1200
+        x: 1189
         y: 391
         width: 400
         height: 200
@@ -1216,11 +1216,6 @@ TextureImporter:
       Cat atlas_20: 6691782265478181127
       Cat atlas_21: -696105036306565342
       Cat atlas_22: 5428180600701908707
-      Cat atlas_30: 673752805424155519
-      Cat atlas_31: -215275164878757881
-      Cat atlas_32: -1140964809988898644
-      Cat atlas_33: 3294359335609839403
-      Cat atlas_34: 5424144511325825653
       Idle_0: -427190852584814077
       Idle_1: -1660430227076409555
       Idle_2: 1906644283914494539
@@ -1254,6 +1249,11 @@ TextureImporter:
       Walk_7: -2358897495027367413
       Walk_8: 2081513511913321008
       Walk_9: -6908957922196550648
+      idle G_00: 673752805424155519
+      idle G_01: -215275164878757881
+      idle G_02: -1140964809988898644
+      idle G_03: 3294359335609839403
+      idle G_04: 5424144511325825653
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
