@@ -4,6 +4,10 @@ using UnityEngine;
 public class FrameByFrameAnimController : MonoBehaviour
 {
     [SerializeField] private Sprite[] frames;
+    [SerializeField] private Sprite[] idle;
+    [SerializeField] private Sprite[] walk;
+    [SerializeField] private Sprite[] run;
+    [SerializeField] private Sprite[] jump;
     public float frameRate = 4f;
 
     private SpriteRenderer spriteRenderer;
