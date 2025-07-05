@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 76588892}
   m_Layer: 0
   m_Name: Platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1354,10 +1354,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1396730012}
-  - component: {fileID: 1396730009}
-  - component: {fileID: 1396730008}
   - component: {fileID: 1396730006}
   - component: {fileID: 1396730013}
+  - component: {fileID: 1396730009}
+  - component: {fileID: 1396730008}
   - component: {fileID: 1396730016}
   - component: {fileID: 1396730018}
   - component: {fileID: 1396730017}
@@ -1495,15 +1495,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5231c0266f51511499f760f6254e6ef2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frames:
-  - {fileID: 5428180600701908707, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  idle:
+  - {fileID: -427190852584814077, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  - {fileID: -1660430227076409555, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  - {fileID: 1906644283914494539, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  - {fileID: -1641452586637119121, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  - {fileID: -4099875765204767046, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  - {fileID: 343038480588421003, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  run:
   - {fileID: -1244920778814552149, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
   - {fileID: 1236392687311136520, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
   - {fileID: 6055542015688233873, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
   - {fileID: -6584409937119726851, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
   - {fileID: 8843142380946198081, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
   - {fileID: 7162155670594087026, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
-  frameRate: 3
+  jump:
+  - {fileID: -6804404806722675561, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  - {fileID: -1167371431897743414, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  - {fileID: 2562945048592784418, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  - {fileID: -2311032156488224624, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  - {fileID: -7989130103690603248, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  - {fileID: -8324304568542078432, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  - {fileID: -2173294162945037460, guid: a45dcbf3ab7789e4f88d26179399fe43, type: 3}
+  frameRate: 9
 --- !u!61 &1396730016
 BoxCollider2D:
   m_ObjectHideFlags: 0

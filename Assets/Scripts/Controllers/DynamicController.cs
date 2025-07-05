@@ -3,6 +3,15 @@
 [RequireComponent(typeof(Rigidbody2D))]
 public class DynamicController : MonoBehaviour
 {
+    public enum State
+    {
+        Idle,
+        Run,
+        Jump
+    }
+
+    public State CurrentState { get; private set; }
+
     public KeyCode moveUpKey = KeyCode.UpArrow;
     public KeyCode moveRightKey = KeyCode.RightArrow;
     public KeyCode moveLeftKey = KeyCode.LeftArrow;
@@ -16,30 +25,32 @@ public class DynamicController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.freezeRotation = true; // ⛔ Запретить вращение
+        rb.freezeRotation = true;
     }
 
     void Update()
     {
         Vector2 moveDir = Vector2.zero;
 
-        if (Input.GetKey(moveUpKey))
-            moveDir += Vector2.up;
-
-        if (Input.GetKey(moveDownKey))
-            moveDir += Vector2.down;
-
-        if (Input.GetKey(moveRightKey))
-            moveDir += Vector2.right;
-
-        if (Input.GetKey(moveLeftKey))
-            moveDir += Vector2.left;
+        if (Input.GetKey(moveUpKey)) moveDir += Vector2.up;
+        if (Input.GetKey(moveDownKey)) moveDir += Vector2.down;
+        if (Input.GetKey(moveRightKey)) moveDir += Vector2.right;
+        if (Input.GetKey(moveLeftKey)) moveDir += Vector2.left;
 
         rb.linearVelocity = moveDir.normalized * moveSpeed;
 
-        if (moveDir == Vector2.zero && !isFlying)
+        // === Обновление состояния ===
+        if (isFlying)
         {
-            rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, Vector2.zero, 0.1f);
+            CurrentState = State.Jump;
+        }
+        else if (moveDir != Vector2.zero)
+        {
+            CurrentState = State.Run;
+        }
+        else
+        {
+            CurrentState = State.Idle;
         }
     }
 
